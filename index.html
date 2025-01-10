@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <img src="./images/logo.png" > 
+            
+            <div class="nav-links">
+              <button class="nav-btn"><a href="#about">About</a></button>  
+             <button  class="nav-btn"><a href="#skills">Skills</a></button>
+             <button  class="nav-btn"><a href="#projects">Projects</a></button>
+             <button  class="nav-btn"><a href="#contact">Contact</a></button>  
+             </div>
+
+       </div> 
+
+    </nav>
+
+    
+
+    <section class="hero" id="about">
+         <div class="hero-content">
+            <h1>Hi, I'm Kamal Patel</h1>
+            <p>A passionate developer crafting beautiful and functional web experiences</p>
+        </div> 
+        
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, SQL</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Technologies</h3>
+                <p>Git, VS Code, Docker</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/mern technology.webp" alt="Project 1">
+                </div>
+                <div class="project-content">
+                    <h3>ShoppingApp-temp</h3>
+                    <p> • Designed a console-based ticket reservation system using C and file-handling techniques.<br>
+                        • Developed modularized functions for seat selection, booking confirmation, and payment processes.<br>
+                        • Ensured efficient data management by implementing structured file handling for booking data storage.<br>
+                        • Performed error handling and input validation to prevent system crashes and improve user experience.<br>
+                        • Tech Used: C/C++, File Handling.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img  id="img" src="./images/rgpvresultUI.jpg" alt="Project 2">
+                </div>
+                <div class="project-content">
+                    <h3>RGPV Result Analysis and Prediction</h3>
+                    <p> • Automated tool to download student results in bulk with a single click.<br>
+                        • Generated Excel sheets for data analysis and presented the data in graph format.<br>
+                        • Predicted student performance trends based on historical results.<br>
+                        • Tech Used: Python, Pandas, Matplotlib, MS Excel.<br.
+                        </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/adminlogin.png" alt="Project 3">
+                </div>
+                <div class="project-content">
+                    <h3>Movie Ticket Booking Application</h3>
+                    <p> • Designed a console-based ticket reservation system using C and file-handling techniques.<br>
+                        • Developed modularized functions for seat selection, booking confirmation, and payment processes.<br>
+                        • Ensured efficient data management by implementing structured file handling for booking data storage.<br>
+                        • Performed error handling and input validation to prevent system crashes and improve user experience.<br>
+                        • Tech Used: C/C++, File Handling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+              
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+             
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+                
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kamal Patel. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+        
+    </script>
+</body>
+</html>
